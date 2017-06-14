@@ -1,4 +1,4 @@
-group = 'astraeus-client'
+group = 'GlisClient'
 version = '1.0.0'
 apply plugin: 'java'
 

@@ -7,6 +7,8 @@
     <bytecodeTargetLevel>
       <module name="astraeus-client_main" target="1.8" />
       <module name="astraeus-client_test" target="1.8" />
+      <module name="GlisClient_main" target="1.8" />
+      <module name="GlisClient_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
