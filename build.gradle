@@ -1,0 +1,21 @@
+group = 'astraeus-client'
+version = '1.0.0'
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+	// https://mvnrepository.com/artifact/org.apache.commons/commons-compress
+	compile group: 'org.apache.commons', name: 'commons-compress', version: '1.13'
+	
+	// https://mvnrepository.com/artifact/org.tukaani/xz
+	compile group: 'org.tukaani', name: 'xz', version: '1.6'
+
+}
+
+sourceSets {
+  main.java.srcDirs = ['src/main/java', 'src/test/java']
+}
